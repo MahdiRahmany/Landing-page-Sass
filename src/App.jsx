@@ -5,6 +5,7 @@ import Pricing from "./components/Pricing/Pricing";
 import Earning from "./components/Earning/Earning";
 import Status from "./components/Status/Status";
 import Subscribe from "./components/Subscribe/Subscribe";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Earning />
       <Status />
       <Subscribe />
+      <Footer/>
     </>
   );
 }
