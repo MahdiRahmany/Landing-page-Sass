@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Companies from "./components/Companies/Companies";
 import Pricing from "./components/Pricing/Pricing";
 import Earning from "./components/Earning/Earning";
+import Status from "./components/Status/Status";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Hero />
       <Companies />
       <Pricing />
-      <Earning/>
+      <Earning />
+      <Status />
     </>
   );
 }

@@ -10,9 +10,9 @@ const Earning = () => {
   });
 
   return (
-    <section className="earning">
-      <div className="earning__container wrapper">
-        <div className="earning__left" data-aos="fade-right">
+    <section className="earnings">
+      <div className="earnings__container wrapper">
+        <div className="earnings__left" data-aos="fade-right">
           <img src={Img} alt="earnings" />
         </div>
         <div className="earning__right" data-aos="zoom-in-up">
