@@ -1,0 +1,48 @@
+@import "../../styles/mixins.scss";
+
+.subscribe {
+  padding-block: 5rem;
+  text-align: center;
+
+  h2 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    text-transform: capitalize;
+
+    @include respond(phone) {
+      font-size: 2rem;
+    }
+  }
+
+  p {
+    margin-block: 1rem 2rem;
+    width: 70%;
+    margin-inline: auto;
+
+    @include respond(phone) {
+      width: 100%;
+    }
+  }
+
+  form {
+    display: flex;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background: var(--black);
+    width: fit-content;
+    margin-inline: auto;
+    gap: 8rem;
+    border: 2px solid var(--black-olive);
+
+    @include respond(phone) {
+      gap: 1rem;
+    }
+  }
+
+  input {
+    background: transparent;
+    border: none;
+    padding-left: 1rem;
+    color: var(--cultured);
+  }
+}
